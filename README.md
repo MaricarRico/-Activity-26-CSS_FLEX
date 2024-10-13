@@ -91,7 +91,6 @@ Replace placeholders like "product1.jpg", "employee1.jpg", etc., with actual ima
 Adjust CSS properties like width and margin to achieve your desired layout and spacing.
 You can customize the styling further to match your specific design requirements.
 
-This provides a basic framework for using Flexbox on different types of web pages. Feel free to experiment with different Flexbox properties and adjust the styling to achieve your desired layouts.
 
 
 
