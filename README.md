@@ -1,18 +1,67 @@
 # -Activity-26-CSS_FLEX
 Apply CSS Flexbox on 5 pages (e.g., product layout, employee cards, student profiles, etc.)
-
 Name your repository CSS_FLEX
-
 Add documentation in the README.md file of your repository
-
 Submit the GitHub repository link
-
 Deadline: December 5 2024
+( Open my hashnode account and there you will see my content )
+activity
+RESULT:
 
-Create HTML & CSS Files: Inside each folder, create an index.html file and a corresponding style.css file. You can run these commands for each folder:
+Explanation:
 
-touch product_layout/index.html product_layout/style.css touch employee_cards/index.html employee_cards/style.css touch student_profiles/index.html student_profiles/style.css touch pricing_table/index.html pricing_table/style.css touch testimonials/index.html testimonials/style.css
-1 Product Layout (product_layout/index.html)
+Basic Container Setup:
+
+The .container class sets up the main Flexbox container.
+
+display: flex enables Flexbox for this element.
+
+flex-wrap: wrap allows items to wrap onto multiple lines if the container is too small.
+
+justify-content: space-around distributes items with equal spacing around the container.
+
+Item Styling:
+
+The .item class styles each individual item within the container.
+
+width, margin, padding, border, border-radius, text-align, and box-shadow are used for basic styling.
+
+Product Layout:
+
+.product-layout modifies the Flexbox direction to column to arrange items vertically.
+
+Additional styling is applied to .item elements within this layout for product-specific presentation.
+
+Employee Cards:
+
+.employee-cards centers items horizontally using justify-content: center.
+
+Student Profiles:
+
+.student-profiles uses justify-content: space-between to distribute items evenly with space between them.
+
+Styling for student profile elements is applied.
+
+Other Examples:
+
+.other-examples demonstrates a vertical layout with full-width items using flex-direction: column and width: 100%.
+
+Styling for these examples is adjusted accordingly.
+
+
+Remember:
+
+
+Replace placeholders like "product1.jpg", "employee1.jpg", etc., with actual image file paths.
+
+Adjust CSS properties like width and margin to achieve your desired layout and spacing.
+
+You can customize the styling further to match your specific design requirements.
+
+
+This provides a basic framework for using Flexbox on different types of web pages. Feel free to experiment with different Flexbox properties and adjust the styling to achieve your desired layouts.
+
+Product Layout (product_layout/index.html)
 <title>Product Layout</title>
 Product 1
 Product 2
